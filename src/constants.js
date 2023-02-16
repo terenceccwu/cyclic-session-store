@@ -1,6 +1,7 @@
 // @flow
 
 // defaults
+const DEFAULT_CALLBACK = () => {}
 const DEFAULT_HASH_KEY = 'pk'
 const DEFAULT_HASH_PREFIX = 'session-store#'
 const DEFAULT_SORT_KEY = 'sk'
@@ -12,6 +13,7 @@ const DEFAULT_KEEP_EXPIRED_POLICY = false
 // aws
 
 module.exports = {
+  DEFAULT_CALLBACK,
   DEFAULT_HASH_KEY,
   DEFAULT_HASH_PREFIX,
   DEFAULT_SORT_KEY,

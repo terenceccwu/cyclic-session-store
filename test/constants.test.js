@@ -9,6 +9,7 @@ import {
 
 describe('constants', () => {
   it('should have all the constants', () => {
+    expect(DEFAULT_CALLBACK).toBeDefined();
     expect(DEFAULT_HASH_KEY).toBeDefined();
     expect(DEFAULT_HASH_PREFIX).toBeDefined();
     expect(DEFAULT_SORT_KEY).toBeDefined();
